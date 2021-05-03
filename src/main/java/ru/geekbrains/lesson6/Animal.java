@@ -11,10 +11,14 @@ public class Animal {
         System.out.println(name + " проплыл " + s + " метров ");
     }
 
-    public Animal() {
-    }
-
     public Animal(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Animal() {
     }
 }
