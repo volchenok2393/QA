@@ -8,8 +8,9 @@ public class HomeWorkApp6 {
         Dogs dog1 = new Dogs("Bob");
         dog1.run(100);
         dog1.swim(1);
-        Cats cat1 = new Cats("H");
+        Cats cat1 = new Cats("H", 1);
         cat1.run(1200);
         cat1.swim(21);
+
     }
 }
